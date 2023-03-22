@@ -4,7 +4,7 @@ gemspec
 
 gem 'rack-test'
 gem 'minitest'
-gem "rails"
+gem "rails", github: "rails/rails"
 gem "pg"
 gem "sqlite3"
 gem "climate_control"

@@ -13,5 +13,5 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 2.4"
   spec.files = `git ls-files | grep -Ev '^(test)'`.split("\n")
 
-  spec.add_dependency "rack", "~> 2.0"
+  spec.add_dependency "rack", "~> 3.0"
 end
